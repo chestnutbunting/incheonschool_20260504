@@ -17,7 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DB_PATH = os.path.join(os.path.dirname(__file__), "..", "project_costs.db")
+DB_PATH = os.path.join(os.path.dirname(__file__), "project_costs.db")
 
 def get_db_connection():
     conn = sqlite3.connect(DB_PATH)

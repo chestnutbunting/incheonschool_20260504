@@ -4,7 +4,7 @@ import sqlite3
 import numpy as np
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-DB_PATH = os.path.join(PROJECT_ROOT, "project_costs.db")
+DB_PATH = os.path.join(PROJECT_ROOT, "backend", "project_costs.db")
 RAW_DATA_DIR = os.path.join(PROJECT_ROOT, ".raw_data")
 
 ELEC_KEYWORDS = ['전선', '케이블', '전등', '스위치', '배전반', '분전반', '차단기', '트레이', '접지', '전기', '등기구']

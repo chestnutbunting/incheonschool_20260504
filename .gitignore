@@ -14,8 +14,8 @@ dist/
 .DS_Store
 
 # DB
-*.db
-!project_costs.db # Keeping the DB for demo purposes as requested in earlier turns
+backend/project_costs.db
+!backend/project_costs.db
 
 # IDE
 .vscode/
