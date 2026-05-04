@@ -4,7 +4,7 @@ import { Search, Download, Building2, Server, Trees, HardHat, Zap, Flame, Layout
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import './App.css';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = '/api';
 
 const COLORS = ['#0f172a', '#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#64748b'];
 
